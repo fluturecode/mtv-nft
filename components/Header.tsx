@@ -7,10 +7,7 @@ import Image from 'next/image'
 
 const basePaths = ['/']; // Add more paths here if needed
 
-const MyHeader = styled.header`
-  background: #ddd;
-`;
-
+const MyHeader = styled.div``;
 export default function Header() {
   const router = useRouter();
   const title = useMemo(() => {
@@ -19,15 +16,14 @@ export default function Header() {
       return router.pathname.split('/')[segments.length - 1].replace('%20', " ");
     }
     return (
-      <div className="">
+      <MyHeader>
         <Image src={mtv_logo} alt="mtv logo" className='h-20 object-contain pt-2'/>
-      </div>
+      </MyHeader>
     );
   }, [router.pathname]);
 
   return (
-    <MyHeader className="w-full h-fit">
-      <div className="h-14 flex justify-center items-center gap-1 p-2 bg-slate-200">
+      <div className="h-30 flex justify-center items-center gap-1 p-2">
         <div className="flex items-center gap-4">
           {!basePaths.some(base => router.pathname === base) && (
             <button onClick={() => router.back()}>
@@ -39,6 +35,5 @@ export default function Header() {
           </h1>
         </div>
       </div>
-    </MyHeader>
   );
 }
