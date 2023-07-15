@@ -23,6 +23,9 @@ export const getAssetsByOwner = async (owner: string) => {
     ],
   });
 
+  console.log(data);
+  
+
   return data.result.items;
 };
 

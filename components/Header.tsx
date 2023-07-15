@@ -19,7 +19,7 @@ export default function Header() {
       return router.pathname.split('/')[segments.length - 1].replace('%20', " ");
     }
     return (
-      <div className="flex items-center">
+      <div className="">
         <Image src={mtv_logo} alt="mtv logo" className='h-20 object-contain pt-2'/>
       </div>
     );
@@ -27,7 +27,7 @@ export default function Header() {
 
   return (
     <MyHeader className="w-full h-fit">
-      <div className="h-14 flex justify-between items-center gap-1 p-2 bg-slate-200">
+      <div className="h-14 flex justify-center items-center gap-1 p-2 bg-slate-200">
         <div className="flex items-center gap-4">
           {!basePaths.some(base => router.pathname === base) && (
             <button onClick={() => router.back()}>
