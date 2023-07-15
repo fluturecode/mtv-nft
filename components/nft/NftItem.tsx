@@ -39,7 +39,7 @@ export const NftItem = ({ nft, isSelected, onClick }: any) => {
           className={`w-full h-40 object-cover rounded-lg   `}
         />
       </div>
-      <p className="font-medium my-2 px-2  text-start w-32 text-lg truncate hover:text-[#FF8A57]">
+      <p className="font-medium my-2 px-3  text-start w-32 text-lg hover:text-[#FF8A57]">
         {nft.content.metadata.name}
       </p>
     </ItemCard>

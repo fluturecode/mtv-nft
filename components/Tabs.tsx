@@ -1,12 +1,11 @@
 import { useRouter } from 'next/router';
 import Link from 'next/link';
-import { FaHeadphones, FaHome, FaImage } from "react-icons/fa";
-import { RiVipCrownLine } from "react-icons/ri";
+import { FaHeadphones, FaComment, FaImage } from "react-icons/fa";
 
 const tabs = [
   { name: "Videos", path: "/", icon: FaHeadphones},
   { name: "NFTs", path: "/nfts", icon: FaImage },
-  { name: "Ranking", path: "/ranking", icon: RiVipCrownLine },
+  { name: "Chat", path: "/chat", icon: FaComment},
 ];
 
 export function Tabs() {

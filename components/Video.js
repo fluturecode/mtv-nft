@@ -3,7 +3,6 @@ import styled from "@emotion/styled"
 
 function Video({ video }) {
 	const VideoPlayer = styled.div`
-		max-width: 640px;
 		object-fit: contain;
 		margin: 20px;
 		border-radius: 10px;

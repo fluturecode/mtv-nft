@@ -11,7 +11,7 @@ const Nfts = () => {
   
   return (
     <div className="h-full relative mb-4 bg-black">
-      <section className="my-5 ">
+      <section className="my-5">
         <NftList />
       </section>
   </div>
