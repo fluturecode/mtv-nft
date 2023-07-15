@@ -1,6 +1,6 @@
-# Builderz Solana xNFT Scaffold (Nextjs13, Typescript, TailwindCSS, MaterialUI, web3.js)
+# MTV YouTube XNFT
 
-This is our open source [Next.js](https://nextjs.org/) , [Solana](https://github.com/solana-labs ) xNFT Backpack Scaffold for the community and whole ecosystem - without much fluff and just the essentials. 💪
+This app was scaffold with the Builderz XNFT Scaffold.
 
 Feel free to use it as a starting point for your next Solana project - we will and already use it for our developments.
 
@@ -12,9 +12,8 @@ We didn't want to include too much as from our experience we tend to delete most
 
 You can find a preview below:
 
-Responsive                     |  Desktop
-:-------------------------:|:-------------------------:
-![Builderz Scaffold Mobile](scaffold-mobile.png)  |  ![Builderz Scaffold Desktop](scaffold-desktop.png)
+![Uploading Screenshot 2023-07-15 at 2.59.47 PM.png…]()
+
 
 ## Packages included and set up
 
