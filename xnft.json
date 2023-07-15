@@ -6,7 +6,7 @@
   "kind": "app",
   "storage": "ipfs",
   "icon": {
-    "md": "./assets/builderz-logo.png"
+    "md": "./assets/mtv_logo.png"
   },
   "contact": "https://twitter.com/builderz__",
   "tag": "nfts",

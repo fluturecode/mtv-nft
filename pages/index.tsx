@@ -2,7 +2,6 @@ import type { NextPage } from "next";
 import styled from "@emotion/styled";
 import Videos from '../components/Videos';
 import "react-toastify/dist/ReactToastify.css";
-import Header from "../components/Header";
 
 if (typeof window !== 'undefined') {
   window.addEventListener('error', function (event) {
@@ -11,16 +10,16 @@ if (typeof window !== 'undefined') {
   });
 }
 
+const AppContainer = styled.div`
+background-color: grey;
+padding: 20px;
+height: 100%;
+`
+
 const Home: NextPage = () => {
-	const AppContainer = styled.div`
-		background-color: grey;
-		padding: 20px;
-		height: 100%;
-	`
 
   return (
 		<AppContainer>
-			<Header />
 			<Videos />
 		</AppContainer>
   );

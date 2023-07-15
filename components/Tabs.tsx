@@ -4,7 +4,6 @@ import { FaHeadphones, FaHome, FaImage } from "react-icons/fa";
 import { RiVipCrownLine } from "react-icons/ri";
 
 const tabs = [
-  // TODO: Add more tabs
   { name: "Videos", path: "/", icon: FaHeadphones},
   { name: "NFTs", path: "/nfts", icon: FaImage },
   { name: "Ranking", path: "/ranking", icon: RiVipCrownLine },
