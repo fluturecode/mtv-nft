@@ -36,7 +36,7 @@ export const NftItem = ({ nft, isSelected, onClick }: any) => {
           width={150}
           height={150}
           alt="NFT"
-          className={`w-full h-40 object-cover rounded-lg   `}
+          className={`w-full h-80 object-cover rounded-lg   `}
         />
       </div>
       <p className="font-medium my-2 px-3  text-start w-32 text-lg hover:text-[#FF8A57]">

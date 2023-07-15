@@ -5,7 +5,6 @@ import BrandW from "../public/builderz-black.svg";
 import Brand from "../public/builderz-white.svg";
 
 import { useTheme } from "@mui/material";
-
 export const Logo = () => {
   const theme = useTheme();
 
