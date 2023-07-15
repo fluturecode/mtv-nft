@@ -1,6 +1,6 @@
 import type { NextPage } from "next";
-import styled from "@emotion/styled"
-
+import styled from "@emotion/styled";
+import Videos from '../components/Videos';
 import "react-toastify/dist/ReactToastify.css";
 import Header from "../components/Header";
 
@@ -22,7 +22,6 @@ const Home: NextPage = () => {
 		<AppContainer>
 			<Header />
 			<Videos />
-			<Footer />
 		</AppContainer>
   );
 };
