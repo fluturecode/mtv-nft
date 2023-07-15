@@ -3,15 +3,16 @@
   "version": "1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev --port 9933",
+    "dev": "next dev --port 19006",
     "build": "next build",
-    "start": "next start --port 9933",
+    "start": "next start --port 19006",
     "lint": "next lint",
     "bundle": "yarn build && npx xnft bundle"
   },
   "dependencies": {
+    "@emotion/core": "^11.0.0",
     "@emotion/react": "^11.10.5",
-    "@emotion/styled": "^11.10.5",
+    "@emotion/styled": "^11.11.0",
     "@mui/icons-material": "^5.10.15",
     "@mui/material": "^5.10.15",
     "@mui/styled-engine-sc": "^5.10.14",
@@ -29,6 +30,7 @@
     "react-router-dom": "^6.4.3",
     "react-toastify": "^9.1.1",
     "react-xnft": "^0.2.0-latest.3375",
+    "react-youtube": "^10.1.0",
     "styled-components": "^5.3.6"
   },
   "devDependencies": {

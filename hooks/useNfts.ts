@@ -9,6 +9,7 @@ export const useNfts = (reload?: number) => {
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(false);
 
+  //const wallet = useWallet();
   const { publicKey } = useWallet();
   const { connection } = useConnection();
 
