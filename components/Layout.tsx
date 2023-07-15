@@ -1,12 +1,14 @@
 import { Tabs } from './Tabs';
 import styled from 'styled-components';
 import { ReactNode } from 'react';
+import Header from './Header';
 
 const MyMain = styled.main``;
 
 const Layout = ({ children }: { children: ReactNode }) => {
   return (
     <div className="h-screen w-full flex flex-col">
+      <Header/>
       {/* Set background color here */}
       <MyMain className="flex-1 text-black bg-white p-2">
         {children}
