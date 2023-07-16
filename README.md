@@ -12,7 +12,7 @@ We didn't want to include too much as from our experience we tend to delete most
 
 You can find a preview below:
 
-<img width="1174" alt="Screenshot 2023-07-15 at 2 59 47 PM" src="https://github.com/fluturecode/mtv-xNFT/assets/59614789/fa27fbeb-61be-418a-85c5-b81a0d47029e">
+<img width="470" alt="Screenshot 2023-07-16 at 1 05 25 PM" src="https://github.com/fluturecode/mtv-xNFT/assets/59614789/2473f129-a146-428d-a440-d82ff568d69c">
 
 ## Packages included and set up
 
