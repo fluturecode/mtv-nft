@@ -6,7 +6,6 @@ import "react-toastify/dist/ReactToastify.css";
 if (typeof window !== 'undefined') {
   window.addEventListener('error', function (event) {
     console.log('Caught via addEventListener', event);
-    // Here you could send the error information to an error tracking service
   });
 }
 

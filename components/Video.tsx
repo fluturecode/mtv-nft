@@ -1,7 +1,12 @@
 import YouTube from "react-youtube"
 import styled from "@emotion/styled"
 
-function Video({ video }) {
+export interface VideoProps {
+  video: string;
+}
+
+export const Video: React.FC<VideoProps>= ({ video }) => {
+
 	const VideoPlayer = styled.div`
 		object-fit: contain;
 		margin: 20px;
@@ -13,11 +18,10 @@ function Video({ video }) {
 			transition: 0.25s ease-in;
 		}
 	`
-	return (
-		<VideoPlayer>
-			<YouTube videoId={video} />
-		</VideoPlayer>
-	)
-}
 
-export default Video
+	return (
+    <VideoPlayer>
+      <YouTube videoId={video}/>
+    </VideoPlayer>
+	);
+};
