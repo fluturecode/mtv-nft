@@ -6,15 +6,15 @@
   "kind": "app",
   "storage": "ipfs",
   "icon": {
-    "md": "./assets/mtv_logo.png"
+    "md": "./assets/mtv_logo.jpg"
   },
   "contact": "https://twitter.com/fluture_sol",
   "tag": "nfts",
-  "programIds": ["9ZskGH9wtdwM9UXjBq1KDwuaLfrZyPChz41Hx7NWhTFf"],
+  "programIds": [],
   "screenshots": ["./assets/screenshot1.png"],
   "entrypoints": {
     "default": {
-      "web": ".next/server/pages/index.html"
+      "web": "https://mtv-x-nft.vercel.app/"
     }
   }
 }
