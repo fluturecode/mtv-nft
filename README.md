@@ -4,7 +4,9 @@ This app was scaffold with the Builderz XNFT Scaffold.
 
 Feel free to use it as a starting point for your next Solana project.
 
-You can find a preview below:
+For a better development experience, use control-G to pop out the backpack simulator, this will also allow for a better video viewing experience =).
+
+Here is a preview:
 
 <img width="470" alt="Screenshot 2023-07-16 at 1 05 25 PM" src="https://github.com/fluturecode/mtv-xNFT/assets/59614789/2473f129-a146-428d-a440-d82ff568d69c">
 
