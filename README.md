@@ -2,13 +2,7 @@
 
 This app was scaffold with the Builderz XNFT Scaffold.
 
-Feel free to use it as a starting point for your next Solana project - we will and already use it for our developments.
-
-Also feel free to send us feedback, open an issue or even PR and contribute by creating your own components, refactoring or other improvements.
-
-The Scaffold has Material-UI v5 theme activated, detecting your devices preferred color scheme and ready to set with a dark/light mode schwitch in the AppBar.tsx.
-
-We didn't want to include too much as from our experience we tend to delete most stuff we found in a scaffold.
+Feel free to use it as a starting point for your next Solana project.
 
 You can find a preview below:
 
@@ -32,6 +26,10 @@ You will also find the CSS for two variations of the Button styling, "glow" and 
 ## Feel free to use it as a starting point for your next Solana project
 
 Also feel free to send us feedback, open an issue or even PR and contribute by creating your own components, refactoring or other improvements.
+
+## RPC
+
+Make sure to add your RPC endpoint to the .envsample and rename it to .env before committing to GitHub. For more info visit 'https://docs.helius.xyz/welcome/what-is-helius'
 
 ## Getting Started
 
