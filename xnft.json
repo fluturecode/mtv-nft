@@ -1,7 +1,7 @@
 {
   "name": "My MTV",
   "version": "0.0.1",
-  "description": "Music Video Apps",
+  "description": "Music Video App",
   "website": "https://twitter.com/fluture_sol",
   "kind": "app",
   "storage": "ipfs",
