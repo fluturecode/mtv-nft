@@ -7,8 +7,7 @@ Feel free to use it as a starting point for your next Solana project.
 For a better development experience, use control-G to pop out the backpack simulator, this will also allow for a better video viewing experience =).
 
 Here is a preview:
-
-<img width="470" alt="Screenshot 2023-07-16 at 1 05 25 PM" src="https://github.com/fluturecode/mtv-xNFT/assets/59614789/2473f129-a146-428d-a440-d82ff568d69c">
+<img width="1075" alt="Screenshot 2023-07-17 at 1 40 03 PM" src="https://github.com/fluturecode/mtv-xNFT/assets/59614789/ffe97418-73f4-4b24-8f82-21974196bce6">
 
 ## Packages included and set up
 
