@@ -1,6 +1,6 @@
 # MTV YouTube XNFT
 
-This app was scaffold with the Builderz XNFT Scaffold.
+This app was scaffold with Builderz xNFT Scaffold.
 
 Feel free to use it as a starting point for your next Solana project.
 
@@ -23,10 +23,6 @@ Furthermore you will find a globals.css file with predefined settings. Next to t
 This means you wont have to set any TailwindCSS fontSizes in your work unless you want something look different than it normally does.
 
 You will also find the CSS for two variations of the Button styling, "glow" and "glow-on-hover" - just tweak them to your needs and add one of those classes to your buttons if you like.
-
-## Feel free to use it as a starting point for your next Solana project
-
-Also feel free to send us feedback, open an issue or even PR and contribute by creating your own components, refactoring or other improvements.
 
 ## RPC
 
