@@ -49,6 +49,7 @@ const Videos = () => {
     return (
       <VideosContainer>
         <CircularProgress />
+        <p>Grabbing your videos from YouTube</p>
       </VideosContainer>
     );
   };
